@@ -113,7 +113,7 @@ $numTotal = mysqli_num_rows($qrTotal);
 
 $totalPagina = ceil($numTotal / $quantidade);
 
-echo "<li class='page-item'><span class='page-link'>Total de Registos: " . $numTotal . " </span></li>";
+// echo "<li class='page-item'><span class='page-link'>Total de Registos: " . $numTotal . " </span></li>";
 
 echo '<li class="page-item"><a class="page-link" href="?menuop=eventos&pagina=1">Primeira Pagina </a></li>';
 
